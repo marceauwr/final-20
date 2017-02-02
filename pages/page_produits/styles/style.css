@@ -1,0 +1,346 @@
+/*************
+
+		ALL
+
+**************/
+
+
+
+@font-face{
+	
+	font-family: 'alamain';
+	src: url('fonts/alamain1.ttf');
+}
+
+@font-face{
+	
+	font-family: 'Big Bimbo NC';
+	src: url('fonts/Big Bimbo NC.ttf');
+}
+
+@font-face{
+	
+	font-family: 'MissRooster';
+	src: url('fonts/MissRooster-Regular.otf');
+}
+
+@font-face{
+	
+	font-family: 'helvetica-normal';
+	src: url('fonts/helvetica-normal-588f427f40bdd.ttf');
+}
+
+@font-face{
+	
+	font-family: 'Raleway-Medium';
+	src: url('fonts/Raleway-Medium.ttf');
+}
+
+@font-face{
+	
+	font-family: 'Raleway-Regular';
+	src: url('fonts/Raleway-Regular.ttf');
+}
+
+@font-face{
+	
+	font-family: 'Raleway-Light';
+	src: url('fonts/Raleway-Light.ttf');
+}
+
+@font-face{
+	
+	font-family: 'TerminalDosis-Light';
+	src: url('fonts/TerminalDosis-Light.ttf');
+}
+
+@font-face{
+	
+	font-family: 'TerminalDosis-Medium';
+	src: url('fonts/TerminalDosis-Medium.ttf');
+}
+
+@font-face{
+	
+	font-family: 'TerminalDosis-Regular';
+	src: url('fonts/TerminalDosis-VaivaiRegular.ttf');
+}
+
+
+@font-face{
+	
+	font-family: 'Vaivai-font';
+	src: url('fonts/Vaivai Handwritting Regular Mac.ttf');
+}
+
+.clearBoth{
+	
+	clear: both;
+}
+
+/********
+
+HEADER
+
+*********/
+
+li.liens{
+  text-transform: uppercase;
+  padding-top:3%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+  background:#ffffff;
+}
+
+ul.menu li a{
+	
+  color:#000000;
+}
+
+header{
+	
+	font-family: 'Big Bimbo NC';
+	font-size: 20px;
+}
+
+span{
+  color:#ed237a;
+}
+
+/* hover sur le menu */
+
+#monmenu ul .liens:hover a{
+	
+	color : #fa1978;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/***************************
+
+						MAIN
+
+***************************/
+
+
+.imageFond1{
+	background: url(../images/fondimage1.png);
+	background-size: 100%;
+}
+
+.imageFond2{
+	background: url(../images/Fond_blanc_decore_1.png);
+	background-size: auto;
+}
+
+.imageFond3{
+	background: url(../images/Fond_communaute.png);
+	background-size: auto;
+}
+
+.imageFond4{
+	background: url(../images/Fond_blanc_decore_1.png);
+	background-size: auto;
+}
+
+/* titre page */
+
+.titrePage{
+	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#titrePage b{
+	
+	color: #fa1978;
+}
+
+#titrePage{
+	
+	color: #ffffff;
+	font-family: 'Big Bimbo NC';
+	font-size: 40px;
+}
+
+/* product section */
+
+.product{
+	
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.productTitle{
+	
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 68px;
+	font-family: 'Vaivai-font', 'Big Bimbo NC', sans-serif;
+	color: #01aa3a;
+}
+
+.productTitle2{
+	
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 68px;
+	font-family: 'Vaivai-font', 'Big Bimbo NC', sans-serif;
+	color: #2199e8;
+}
+
+.descriptionProduct{
+	
+	font-size: 18px;
+	font-family: 'TerminalDosis-Light', 'helvetica-normal', 'Arial', sans-serif;
+	margin-bottom: 25px;
+}
+
+.descriptionProduct2{
+	
+	font-size: 18px;
+	color: #ffffff;
+	font-family: 'TerminalDosis-Light', 'helvetica-normal', 'Arial', sans-serif;
+	margin-bottom: 25px;
+}
+
+.imageProduct{
+	
+	margin-top: 10px;
+	padding: 25px;
+	background: url(../images/fondprouct.png);
+	border-radius: 150px;
+}
+
+.iconeProduct{
+	
+	float: left;
+}
+
+#purJusCocoProduct{
+	
+	margin-left: 30px;
+	margin-bottom: 15px;
+	color: #99ca3c;
+	font-family: 'TerminalDosis-Regular', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#creationProduct{
+	
+	margin-left: 30px;
+	margin-bottom: 15px;
+	color: #04cfdd;
+	font-family: 'TerminalDosis-Regular', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#snacksDeCocoProduct{
+	
+	margin-left: 30px;
+	margin-bottom: 15px;
+	color: #9dbc2c;
+	font-family: 'TerminalDosis-Regular', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.bouton{
+	
+	display: inline-block;
+	margin-left: 23%;
+	font-family: 'TerminalDosis-Regular', 'helvetica-normal', 'Arial', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	width: 125px;
+	text-align: center;
+	background: #01aa3a;
+	border-radius: 15px;
+}
+
+.bouton2{
+	
+	display: inline-block;
+	margin-left: 23%;
+	font-family: 'TerminalDosis-Regular', 'helvetica-normal', 'Arial', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	width: 125px;
+	text-align: center;
+	background: #2199e8;
+	border-radius: 15px;
+}
+
+/* hover bouton */
+
+.bouton:hover{
+	
+	background: #01893A;
+}
+
+.bouton2:hover{
+	
+	background: #2177E9;
+}
+
+/******************
+
+			FOOTER
+
+*******************/
+
+footer{
+  text-align:center;
+  text-transform:Capitalize;
+  padding-top: 30px;	
+}
+
+ul.footer li, ul.reseauxSociaux li{
+  display:inline-block;
+  margin-right:5px;
+  margin-left:5px;
+  color:#75716a;
+}
+
+ul.footer li a{
+  text-decoration:none;
+  color:#75716a;
+}
+
+.autresLiens{
+  font-size:11px;
+  font-family:Dosis;
+}
+
+ul.reseauxSociaux li a img{
+  height:25px;
+}
+
+ul.footer{
+  padding-top:0;
+  padding-bottom:0;
+  
+}
+footer .menu{
+  font-family:'TerminalDosis-Regular';
+}
+
+.autresLiens{
+  font-size:11px;
+  font-family: 'TerminalDosis-Medium';
+}
